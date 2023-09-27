@@ -1,0 +1,11 @@
+body {
+    background-color: #222;
+    color: white;
+    
+    height: 100vh;
+}
+
+.light-mode {
+    background-color: white;
+    color: black;
+}

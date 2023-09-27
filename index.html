@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Contains metadata -->
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/style.css" rel="stylesheet" type="text/css" />
+        <title>About Me</title>
+    </head>
+    <body>
+        <!-- Everything in the body will be shown to the user -->
+
+        <header>
+            <!-- The header will normally contain the logo and heading -->
+
+            <button onclick="darkModeToggle()">Toggle Dark Mode</button>
+            <br>
+            <br>
+            <img src="img/logo-96X96.svg" alt="Origami bird named Bob" width="100px" />
+            <h1>About Me</h1>
+            <br>
+        </header>
+
+        <main>
+            <!-- The main section contains the most important parts of the website -->
+
+            <section>
+                <!-- This sections contains my avatar and a brief bit about me -->
+
+                <img src="img/avataaars.png" alt="Avatar of Asher Smith" width="200px" />
+                <div>
+                    <h3>Asher Smith</h3>
+                    <h3>Hunterdon, NJ</h3>
+                </div>
+                <br>
+            </section>
+
+            <section>
+                <div>
+                    <!-- This sections contains a few things I want to do -->
+
+                    <h3>I want to...</h3>
+                    <ul>
+                        <li>Get rich?</li>
+                        <li>Buy a Porsche</li>
+                        <li>Build a house</li>
+                        <li>Get really rich</li>
+                    </ul>
+                </div>
+                <br>
+            </section>
+
+            <nav>
+                <a href="https://github.com/AsherSmith1" target="_blank">My GitHub</a>
+            </nav>
+        </main>
+        
+        
+        <script>
+            function darkModeToggle() {
+                var body = document.body;
+                body.classList.toggle("light-mode");
+            }
+        </script>
+    </body>
+</html>
