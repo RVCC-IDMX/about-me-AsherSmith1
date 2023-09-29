@@ -7,14 +7,23 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="css/style.css" rel="stylesheet" type="text/css" />
         <title>About Me</title>
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Lora&display=swap" rel="stylesheet">
+
     </head>
     <body>
         <!-- Everything in the body will be shown to the user -->
-
+    
         <header>
             <!-- The header will normally contain the logo and heading -->
 
-            <button onclick="darkModeToggle()">Toggle Dark Mode</button>
+            <button onclick="HighContrastModeToggle()">Toggle High Contrast Mode</button>
             <br>
             <br>
             <img src="img/logo-96X96.svg" alt="Origami bird named Bob" width="100px" />
@@ -45,7 +54,7 @@
                         <li>Get rich?</li>
                         <li>Buy a Porsche</li>
                         <li>Build a house</li>
-                        <li>Get really rich</li>
+                        <li>Get really rich.</li>
                     </ul>
                 </div>
                 <br>
@@ -56,11 +65,14 @@
             </nav>
         </main>
         
+        <footer>
+            <h6>© Asher Smith</h6>
+        </footer>
         
         <script>
-            function darkModeToggle() {
+            function HighContrastModeToggle() {
                 var body = document.body;
-                body.classList.toggle("light-mode");
+                body.classList.toggle("high-contrast-mode");
             }
         </script>
     </body>
