@@ -37,7 +37,7 @@ body {
     height: 100vh;
 }
 
-.high-contrast-mode {
-    background-color: blue;
-    color: yellow;
+.light-mode {
+    background-color: white;
+    color: black;
 }
