@@ -1,11 +1,43 @@
+header {
+    font-family: "Lora";
+    font-size: medium;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+}
+
 body {
-    background-color: #222;
+    font-family: "Comfortaa";
+    font-size: medium;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+}
+
+footer {
+    font-family: "Lora";
+    font-size: medium;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+}
+
+/* Comment in CCS */
+
+ul {
+    display: table;
+    margin: 0 auto;
+    text-align: left;
+}
+
+body {
+    background-color: black;
     color: white;
-    
+
     height: 100vh;
 }
 
-.light-mode {
-    background-color: white;
-    color: black;
+.high-contrast-mode {
+    background-color: blue;
+    color: yellow;
 }
